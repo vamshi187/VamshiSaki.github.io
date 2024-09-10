@@ -1,0 +1,57 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: 'Open sans', sans-serif; /* Use Roboto font */
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark text color */
+}
+
+header {
+    background-color: #007bff; /* Blue header background */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff; /* White background for sections */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for sections */
+}
+
+.profile-pic {
+    display: block;
+    margin: 0 auto; /* Center profile picture */
+    border-radius: 50%; /* Circular profile picture */
+    max-width: 200px; /* Adjust profile picture size */
+}
+
+.project {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Border for project cards */
+    border-radius: 5px; /* Rounded corners for project cards */
+}
+
+.project-img {
+    max-width: 150px; /* Adjust project image size */
+    margin-right: 20px;
+}
+
+.project-info {
+    flex: 1;
+}
+
+footer {
+    background-color: #007bff; /* Blue footer background */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 10px 0;
+}
